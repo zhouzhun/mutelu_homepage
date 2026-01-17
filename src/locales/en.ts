@@ -13,6 +13,7 @@ export const en = {
     description:
       "Discover your daily fortune, lucky colors, beautiful wallpapers, and mystical guidance through Tarot and Thai astrology.",
     addFriend: "Add Friend on LINE",
+    scanQR: "Scan QR to Add Friend",
   },
   features: {
     title: "Features",
