@@ -1,0 +1,17 @@
+{
+  "name": "MuteluAI - Mystical AI Assistant",
+  "short_name": "MuteluAI",
+  "description": "Your mystical AI assistant on LINE for fortune telling, Tarot readings, and Thai astrology",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#d4af37",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

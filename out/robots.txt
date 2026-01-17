@@ -1,0 +1,6 @@
+# MuteluAI Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mutelu.ai/sitemap.xml
