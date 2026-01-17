@@ -5,9 +5,11 @@ node_modules/
 
 # Build output
 .next/
-out/
 build/
 dist/
+
+# Static export (uncomment if you don't want to track)
+# out/
 
 # Testing
 coverage/

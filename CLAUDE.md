@@ -10,15 +10,26 @@ MuteluAI Homepage - A bilingual (English/Thai) website for the MuteluAI LINE cha
 
 ```bash
 npm run dev      # Start development server
-npm run build    # Build for production (static export)
+npm run build    # Build for production (static export to out/)
 npm run start    # Start production server
 npm run lint     # Run ESLint
+npm run deploy   # Build and deploy to Cloudflare
 ```
+
+## Deployment
+
+### Cloudflare Pages
+- Build command: `npm run build`
+- Build output directory: `out`
+
+### Cloudflare Workers (wrangler)
+- Config file: `wrangler.jsonc`
+- Deploy command: `npm run deploy`
 
 ## Architecture
 
 - **Framework**: Next.js 16 with App Router, TypeScript, Tailwind CSS 4
-- **Output**: Static site export (`output: "export"` in next.config.ts)
+- **Output**: Static site export (`output: "export"` in next.config.ts) to `out/` directory
 - **Styling**: Tailwind CSS 4 with custom theme colors (mystic-gold, mystic-purple, mystic-dark)
 
 ### Key Directories
@@ -37,4 +48,5 @@ Language switching is client-side via React Context (`LanguageProvider`). All us
 - Company: MobiusVision LLC
 - Website: https://mobiusvision.com/
 - Email: contact@mobiusvision.com
-- Address: 30 N Gould St Ste N, Sheridan, WY 82801
+- Phone: +1-307-777-7311
+- Address: 30 N Gould St Ste N, Sheridan, WY 82801 USA
