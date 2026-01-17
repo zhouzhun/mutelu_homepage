@@ -13,18 +13,12 @@ npm run dev      # Start development server
 npm run build    # Build for production (static export to out/)
 npm run start    # Start production server
 npm run lint     # Run ESLint
-npm run deploy   # Build and deploy to Cloudflare
 ```
 
-## Deployment
+## Deployment (Cloudflare Pages)
 
-### Cloudflare Pages
 - Build command: `npm run build`
 - Build output directory: `out`
-
-### Cloudflare Workers (wrangler)
-- Config file: `wrangler.jsonc`
-- Deploy command: `npm run deploy`
 
 ## Architecture
 
