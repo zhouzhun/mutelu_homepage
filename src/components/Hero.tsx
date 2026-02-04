@@ -40,7 +40,7 @@ export default function Hero() {
           <div className="flex flex-col items-center justify-center">
             <div className="p-4 bg-white rounded-2xl shadow-lg mystic-glow">
               <Image
-                src="/images/770icjpv.png"
+                src="/images/304bxjpk.png"
                 alt="LINE QR Code"
                 width={200}
                 height={200}
