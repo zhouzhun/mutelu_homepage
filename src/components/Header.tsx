@@ -38,6 +38,12 @@ export default function Header() {
               {t.nav.features}
             </Link>
             <Link
+              href="/partners"
+              className="text-gray-300 hover:text-mystic-gold transition-colors"
+            >
+              {t.nav.partners}
+            </Link>
+            <Link
               href="/terms"
               className="text-gray-300 hover:text-mystic-gold transition-colors"
             >

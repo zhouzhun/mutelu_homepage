@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://mutelu.ai/sitemap.xml
+Sitemap: https://muteluai.com/sitemap.xml

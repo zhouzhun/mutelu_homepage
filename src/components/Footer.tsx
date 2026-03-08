@@ -42,6 +42,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link
+                  href="/partners"
+                  className="text-gray-400 hover:text-mystic-gold transition-colors"
+                >
+                  {t.nav.partners}
+                </Link>
+              </li>
+              <li>
                 <a
                   href="https://mobiusvision.com/"
                   target="_blank"

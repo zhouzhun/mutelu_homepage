@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useLanguage } from "./LanguageProvider";
 
 export default function Hero() {
@@ -36,6 +37,23 @@ export default function Hero() {
           <p className="text-gray-400 max-w-2xl mx-auto mb-10 text-lg">
             {t.hero.description}
           </p>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
+            <a
+              href="https://line.me/R/ti/p/@304bxjpk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex items-center justify-center"
+            >
+              {t.hero.addFriend}
+            </a>
+            <Link
+              href="/partners"
+              className="btn-gold inline-flex items-center justify-center"
+            >
+              {t.hero.partnerProgram}
+            </Link>
+          </div>
 
           <div className="flex flex-col items-center justify-center">
             <div className="p-4 bg-white rounded-2xl shadow-lg mystic-glow">

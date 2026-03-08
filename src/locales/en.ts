@@ -2,6 +2,7 @@ export const en = {
   nav: {
     home: "Home",
     features: "Features",
+    partners: "Partner & KOL",
     pricing: "Pricing",
     terms: "Terms of Service",
     privacy: "Privacy Policy",
@@ -14,6 +15,53 @@ export const en = {
       "Discover your daily fortune, lucky colors, beautiful wallpapers, and mystical guidance through Tarot and Thai astrology.",
     addFriend: "Add Friend on LINE",
     scanQR: "Scan to Find Your Fortune",
+    partnerProgram: "Explore Partner & KOL Program",
+  },
+  partnerProgram: {
+    title: "Grow with Mutelu",
+    subtitle: "A program for partners, creators, and modern spiritual businesses.",
+    description:
+      "Mutelu helps you turn audience trust, extra traffic, and offline demand into recurring digital revenue on LINE.",
+    inviteCodeLabel: "Invite code",
+    inviteCodeHint:
+      "Use this code when testing the program directly or when talking to the team.",
+    ctaPrimary: "Talk to us on LINE",
+    ctaSecondary: "Back to homepage",
+    audienceTitle: "Who is this for?",
+    partnerTitle: "For Partners",
+    partnerDescription:
+      "Designed for people who can recruit, guide, or support multiple creators. Build a network once, then keep earning as your creators keep bringing in qualified users.",
+    kolTitle: "For KOLs & Influencers",
+    kolDescription:
+      "Designed for tarot readers, spiritual creators, shop owners, and local influencers. Mutelu can absorb online and offline overflow traffic, and it keeps serving users when you are resting or unavailable.",
+    benefitsTitle: "Why join?",
+    partnerBenefits: [
+      "Build a passive income stream from a portfolio of creators instead of one sales channel.",
+      "Work with multiple KOLs at the same time and grow long-term value from your network.",
+      "Use Mutelu as a lightweight digital product without needing to deliver every service manually.",
+    ],
+    kolBenefits: [
+      "Capture traffic you cannot handle immediately, both online and offline.",
+      "Offer your audience a ready-to-use alternative when you are busy, resting, or not taking 1-on-1 sessions.",
+      "Keep monetizing audience demand even outside your working hours.",
+    ],
+    flowTitle: "How it works",
+    flowSteps: [
+      "Apply to join the program.",
+      "Get reviewed by the Mutelu admin team.",
+      "Receive your link or invite code after approval.",
+      "Start sharing Mutelu with users or recruiting creators into your network.",
+    ],
+    whyTitle: "Why Mutelu works",
+    whyPoints: [
+      "Free daily tools help users start with low friction.",
+      "Premium services create ongoing revenue opportunities.",
+      "LINE-based experience matches Thai user behavior.",
+      "The product works as both a primary service and a backup product.",
+    ],
+    closeTitle: "Built for real traffic, not just theory",
+    closeDescription:
+      "If you already have audience trust, customer inquiries, walk-in demand, or creator connections, Mutelu gives you a practical way to keep serving that demand digitally.",
   },
   features: {
     title: "Features",
