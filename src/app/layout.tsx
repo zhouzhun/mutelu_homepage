@@ -115,7 +115,7 @@ export default function RootLayout({
                 contactPoint: {
                   "@type": "ContactPoint",
                   telephone: "+1-307-777-7311",
-                  email: "contact@mobiusvision.com",
+                  email: "contact@muteluai.com",
                   contactType: "customer service",
                 },
               },

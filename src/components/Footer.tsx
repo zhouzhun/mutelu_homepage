@@ -103,7 +103,7 @@ export default function Footer() {
               <p>
                 {t.footer.contact}:{" "}
                 <a
-                  href="mailto:contact@mobiusvision.com"
+                  href={`mailto:${t.footer.email}`}
                   className="text-mystic-gold hover:underline"
                 >
                   {t.footer.email}

@@ -22,18 +22,18 @@ export const en = {
     subtitle: "A program for partners, creators, and modern spiritual businesses.",
     description:
       "Mutelu helps you turn audience trust, extra traffic, and offline demand into recurring digital revenue on LINE.",
-    inviteCodeLabel: "Invite code",
-    inviteCodeHint:
-      "Use this code when testing the program directly or when talking to the team.",
-    ctaPrimary: "Talk to us on LINE",
+    contactTitle: "Application overview",
+    ctaPrimary: "Add LINE OA",
     ctaSecondary: "Back to homepage",
     audienceTitle: "Who is this for?",
+    partnerTagline: "Passive income",
     partnerTitle: "For Partners",
     partnerDescription:
-      "Designed for people who can recruit, guide, or support multiple creators. Build a network once, then keep earning as your creators keep bringing in qualified users.",
+      "Partner applications are reviewed case by case. Email us a self-introduction and explain which channels, traffic sources, or creator networks you can use to promote Mutelu.",
+    kolTagline: "Overflow traffic",
     kolTitle: "For KOLs & Influencers",
     kolDescription:
-      "Designed for tarot readers, spiritual creators, shop owners, and local influencers. Mutelu can absorb online and offline overflow traffic, and it keeps serving users when you are resting or unavailable.",
+      "Anyone can apply to become a KOL. Add our LINE OA account first, then submit your application from the sharing page inside Mutelu.",
     benefitsTitle: "Why join?",
     partnerBenefits: [
       "Build a passive income stream from a portfolio of creators instead of one sales channel.",
@@ -45,12 +45,24 @@ export const en = {
       "Offer your audience a ready-to-use alternative when you are busy, resting, or not taking 1-on-1 sessions.",
       "Keep monetizing audience demand even outside your working hours.",
     ],
-    flowTitle: "How it works",
-    flowSteps: [
-      "Apply to join the program.",
-      "Get reviewed by the Mutelu admin team.",
-      "Receive your link or invite code after approval.",
-      "Start sharing Mutelu with users or recruiting creators into your network.",
+    flowTitle: "Application paths",
+    kolApplyTitle: "KOL application",
+    kolApplySummary:
+      "Anyone can apply. Start by adding our LINE OA account, then apply from the sharing page inside Mutelu.",
+    kolApplySteps: [
+      "Add our LINE OA account.",
+      "Open the sharing page inside Mutelu and apply to join.",
+      "Wait for review and approval from the team.",
+    ],
+    partnerApplyTitle: "Partner application",
+    partnerApplySummary:
+      "Partner applications are manual. Email us with a clear introduction and your promotion plan.",
+    partnerEmailLabel: "Email",
+    partnerApplySteps: [
+      "Email us with a short self-introduction.",
+      "Explain which channels, audiences, or traffic sources you can use to promote Mutelu.",
+      "Tell us how you want to work with creators, users, or affiliates.",
+      "Wait for our reply and next-step discussion.",
     ],
     whyTitle: "Why Mutelu works",
     whyPoints: [
@@ -104,7 +116,7 @@ export const en = {
     description:
       "Focused on cutting-edge AI and VR research and development, providing innovative solutions for next-generation applications.",
     contact: "Contact",
-    email: "contact@mobiusvision.com",
+    email: "contact@muteluai.com",
     phone: "+1-307-777-7311",
     address: "30 N Gould St Ste N, Sheridan, WY 82801 USA",
     links: "Links",
@@ -147,7 +159,7 @@ export const en = {
       },
       contact: {
         title: "7. Contact Information",
-        content: "Questions about these Terms? Email contact@mobiusvision.com or write to MobiusVision LLC, 30 N Gould St Ste N, Sheridan, WY 82801 USA. Phone: +1-307-777-7311",
+        content: "Questions about these Terms? Email contact@muteluai.com or write to MobiusVision LLC, 30 N Gould St Ste N, Sheridan, WY 82801 USA. Phone: +1-307-777-7311",
       },
     },
   },
@@ -198,12 +210,12 @@ export const en = {
       deletion: {
         title: "9. Data Deletion",
         content:
-          "You can request deletion of your personal data at any time by contacting us at contact@mobiusvision.com or through the LINE chatbot. Upon receiving your request, we will delete all your personal information including: your account details, conversation history, credit balance and transaction records, and any other associated data. Please note that once deleted, this action cannot be undone and any remaining credits will be forfeited.",
+          "You can request deletion of your personal data at any time by contacting us at contact@muteluai.com or through the LINE chatbot. Upon receiving your request, we will delete all your personal information including: your account details, conversation history, credit balance and transaction records, and any other associated data. Please note that once deleted, this action cannot be undone and any remaining credits will be forfeited.",
       },
       contact: {
         title: "10. Contact Us",
         content:
-          "If you have questions about this Privacy Policy or wish to exercise your data rights, please contact us: Email contact@mobiusvision.com or write to MobiusVision LLC, 30 N Gould St Ste N, Sheridan, WY 82801 USA. Phone: +1-307-777-7311",
+          "If you have questions about this Privacy Policy or wish to exercise your data rights, please contact us: Email contact@muteluai.com or write to MobiusVision LLC, 30 N Gould St Ste N, Sheridan, WY 82801 USA. Phone: +1-307-777-7311",
       },
     },
   },
@@ -224,7 +236,7 @@ export const en = {
       process: {
         title: "3. Refund Process",
         content:
-          "To request a refund, please contact us at contact@mobiusvision.com with your LINE user ID, purchase date, and reason for the refund request. We will process eligible refunds within 5-10 business days.",
+          "To request a refund, please contact us at contact@muteluai.com with your LINE user ID, purchase date, and reason for the refund request. We will process eligible refunds within 5-10 business days.",
       },
       nonRefundable: {
         title: "4. Non-Refundable Items",
@@ -238,7 +250,7 @@ export const en = {
       },
       contact: {
         title: "6. Contact for Refunds",
-        content: "For refund requests or questions, please contact us: Email contact@mobiusvision.com or write to MobiusVision LLC, 30 N Gould St Ste N, Sheridan, WY 82801 USA. Phone: +1-307-777-7311",
+        content: "For refund requests or questions, please contact us: Email contact@muteluai.com or write to MobiusVision LLC, 30 N Gould St Ste N, Sheridan, WY 82801 USA. Phone: +1-307-777-7311",
       },
     },
   },

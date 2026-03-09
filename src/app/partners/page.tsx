@@ -5,7 +5,6 @@ import { LanguageProvider, useLanguage } from "@/components/LanguageProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const INVITE_CODE = "T7SD2WVQ";
 const LINE_OA_URL = "https://line.me/R/ti/p/@304bxjpk";
 
 function PartnersContent() {
@@ -56,12 +55,31 @@ function PartnersContent() {
 
               <aside className="gradient-card rounded-3xl p-6 lg:p-8">
                 <div className="mb-3 text-sm uppercase tracking-[0.2em] text-mystic-gold/80">
-                  {content.inviteCodeLabel}
+                  {content.contactTitle}
                 </div>
-                <div className="mb-4 rounded-2xl border border-mystic-gold/30 bg-black/20 px-5 py-4 text-center text-3xl font-bold tracking-[0.3em] text-white">
-                  {INVITE_CODE}
+                <div className="space-y-5 text-sm leading-7 text-gray-300">
+                  <div>
+                    <h3 className="mb-2 text-base font-semibold text-white">
+                      {content.kolApplyTitle}
+                    </h3>
+                    <p>{content.kolApplySummary}</p>
+                  </div>
+                  <div>
+                    <h3 className="mb-2 text-base font-semibold text-white">
+                      {content.partnerApplyTitle}
+                    </h3>
+                    <p className="mb-2">{content.partnerApplySummary}</p>
+                    <p>
+                      {content.partnerEmailLabel}{" "}
+                      <a
+                        href={`mailto:${t.footer.email}`}
+                        className="text-mystic-gold hover:underline"
+                      >
+                        {t.footer.email}
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <p className="text-sm leading-7 text-gray-300">{content.inviteCodeHint}</p>
               </aside>
             </div>
           </div>
@@ -74,7 +92,7 @@ function PartnersContent() {
           <div className="grid gap-6 lg:grid-cols-2">
             <article className="gradient-card rounded-3xl p-8">
               <div className="mb-4 text-sm uppercase tracking-[0.2em] text-mystic-gold/70">
-                Passive income
+                {content.partnerTagline}
               </div>
               <h3 className="mb-4 text-2xl font-semibold text-white">
                 {content.partnerTitle}
@@ -83,7 +101,7 @@ function PartnersContent() {
             </article>
             <article className="gradient-card rounded-3xl p-8">
               <div className="mb-4 text-sm uppercase tracking-[0.2em] text-purple-300/80">
-                Overflow traffic
+                {content.kolTagline}
               </div>
               <h3 className="mb-4 text-2xl font-semibold text-white">
                 {content.kolTitle}
@@ -133,16 +151,38 @@ function PartnersContent() {
               <h2 className="mb-6 text-3xl font-bold text-gradient-gold">
                 {content.flowTitle}
               </h2>
-              <ol className="space-y-4">
-                {content.flowSteps.map((step, index) => (
-                  <li key={step} className="flex gap-4">
-                    <div className="flex h-9 w-9 flex-none items-center justify-center rounded-full bg-mystic-gold text-sm font-bold text-black">
-                      {index + 1}
-                    </div>
-                    <p className="pt-1 leading-7 text-gray-300">{step}</p>
-                  </li>
-                ))}
-              </ol>
+              <div className="grid gap-6 md:grid-cols-2">
+                <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
+                  <h3 className="mb-4 text-xl font-semibold text-white">
+                    {content.kolApplyTitle}
+                  </h3>
+                  <ol className="space-y-4">
+                    {content.kolApplySteps.map((step, index) => (
+                      <li key={step} className="flex gap-4">
+                        <div className="flex h-9 w-9 flex-none items-center justify-center rounded-full bg-mystic-gold text-sm font-bold text-black">
+                          {index + 1}
+                        </div>
+                        <p className="pt-1 leading-7 text-gray-300">{step}</p>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-black/20 p-5">
+                  <h3 className="mb-4 text-xl font-semibold text-white">
+                    {content.partnerApplyTitle}
+                  </h3>
+                  <ol className="space-y-4">
+                    {content.partnerApplySteps.map((step, index) => (
+                      <li key={step} className="flex gap-4">
+                        <div className="flex h-9 w-9 flex-none items-center justify-center rounded-full bg-purple-400 text-sm font-bold text-black">
+                          {index + 1}
+                        </div>
+                        <p className="pt-1 leading-7 text-gray-300">{step}</p>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              </div>
             </div>
 
             <div className="gradient-card rounded-3xl p-8">
