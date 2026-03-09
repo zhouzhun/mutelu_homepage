@@ -8,8 +8,8 @@ node_modules/
 build/
 dist/
 
-# Static export (uncomment if you don't want to track)
-# out/
+# Static export
+out/
 
 # Testing
 coverage/

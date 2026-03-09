@@ -41,6 +41,6 @@ Language switching is client-side via React Context (`LanguageProvider`). All us
 
 - Company: MobiusVision LLC
 - Website: https://mobiusvision.com/
-- Email: contact@mobiusvision.com
+- Email: contact@muteluai.com
 - Phone: +1-307-777-7311
 - Address: 30 N Gould St Ste N, Sheridan, WY 82801 USA
