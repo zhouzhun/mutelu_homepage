@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       "A Thailand-focused partner and KOL program on LINE for passive income, overflow traffic, and digital growth with Mutelu. สมัคร KOL หรือพาร์ทเนอร์ในไทยเพื่อสร้างรายได้บน LINE",
     images: [
       {
-        url: "/images/cover-og.png",
+        url: "/images/cover-og.jpg",
         width: 1200,
         height: 630,
         alt: "Mutelu Partner & KOL Thailand",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Mutelu Partner & KOL Thailand | สร้างรายได้เสริมบน LINE",
     description:
       "Build passive income with Mutelu in Thailand. สมัคร KOL หรือพาร์ทเนอร์เพื่อสร้างรายได้เสริมบน LINE",
-    images: ["/images/cover-og.png"],
+    images: ["/images/cover-og.jpg"],
   },
 };
 
