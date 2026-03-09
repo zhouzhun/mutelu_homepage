@@ -19,9 +19,10 @@ export const en = {
   },
   partnerProgram: {
     title: "Grow with Mutelu",
-    subtitle: "A program for partners, creators, and modern spiritual businesses.",
+    subtitle:
+      "A Thailand-focused program for partners, KOLs, creators, and modern spiritual businesses.",
     description:
-      "Mutelu helps you turn audience trust, extra traffic, and offline demand into recurring digital revenue on LINE.",
+      "Mutelu helps you turn audience trust, extra traffic, and offline demand in Thailand into passive income and recurring digital revenue on LINE.",
     contactTitle: "Application overview",
     ctaPrimary: "Add LINE OA",
     ctaSecondary: "Back to homepage",
@@ -71,9 +72,9 @@ export const en = {
       "LINE-based experience matches Thai user behavior.",
       "The product works as both a primary service and a backup product.",
     ],
-    closeTitle: "Built for real traffic, not just theory",
+    closeTitle: "Built for real traffic in Thailand, not just theory",
     closeDescription:
-      "If you already have audience trust, customer inquiries, walk-in demand, or creator connections, Mutelu gives you a practical way to keep serving that demand digitally.",
+      "If you already have audience trust, customer inquiries, walk-in demand, or creator connections in Thailand, Mutelu gives you a practical way to keep serving that demand digitally.",
   },
   features: {
     title: "Features",
