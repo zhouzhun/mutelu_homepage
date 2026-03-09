@@ -51,9 +51,9 @@ export const metadata: Metadata = {
       "Discover your daily fortune, lucky colors, Tarot readings, Thai astrology, and beautiful wallpapers with MuteluAI on LINE.",
     images: [
       {
-        url: "/images/cover-photo.png",
-        width: 1536,
-        height: 1024,
+        url: "/images/cover-og.png",
+        width: 1200,
+        height: 630,
         alt: "MuteluAI - Mystical AI Assistant",
       },
     ],
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     title: "MuteluAI - Your Mystical AI Assistant on LINE",
     description:
       "Discover your daily fortune, lucky colors, Tarot readings, and Thai astrology with MuteluAI on LINE.",
-    images: ["/images/cover-photo.png"],
+    images: ["/images/cover-og.png"],
   },
   icons: {
     icon: "/images/logo.png",
